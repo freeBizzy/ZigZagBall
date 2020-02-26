@@ -28,7 +28,7 @@ namespace ZigZagGame
             consistently,
             random
         }
-        void Start()
+        void Awake()
         {
             RedCrystalPool = new Pool(prefabCrystal);
         }

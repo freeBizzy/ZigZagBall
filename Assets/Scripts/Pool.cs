@@ -57,6 +57,7 @@ namespace ZigZagGame
 
         public void DisableAllCristal()
         {
+            if (ActiveCristals.Count == 0) return;
             foreach (GameObject item in ActiveCristals)
             {
                 DisableCristals.Add(item);

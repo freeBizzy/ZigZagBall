@@ -68,7 +68,7 @@ namespace ZigZagGame
                 case GameManager.GameMode.Start:
                     _rigidbody.isKinematic = true;
                     transform.position = new Vector3(0, 0.25f, 0);
-                    directionMovement = Vector3.back;
+                    directionMovement = Vector3.right;
                     break;
 
                 case GameManager.GameMode.Game:
